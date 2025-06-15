@@ -12,3 +12,7 @@ variable "common_tags" {
     terraform = "true"
   }
 }
+
+variable "sg_description" {
+  default = "Security group for resources"
+}
